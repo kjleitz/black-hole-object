@@ -81,7 +81,7 @@ safeConsole.log('hi')
 Want to prevent API calls?
 
 ```javascript
-const letsNotHammerTheServer = false;
+const letsNotHammerTheServer = true;
 
 const axios = letsNotHammerTheServer ? new BlackHoleObject() : require('axios');
 
@@ -94,7 +94,7 @@ axios.get('https://example.com/some/url').then((response) => {
 ```
 
 ```javascript
-const letsNotHammerTheServer = true;
+const letsNotHammerTheServer = false;
 
 const axios = letsNotHammerTheServer ? new BlackHoleObject() : require('axios');
 
