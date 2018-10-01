@@ -54,7 +54,7 @@ earth.turtle.turtle.turtle.turtle;
 
 ### Example use cases
 
-Want to use `console.log`, `console.warn`, etc., but you only have logging in a development environment (but not in production)?
+Want to use `console.log`, `console.warn`, etc., but only have logging in a development environment (not in production)?
 
 ```javascript
 // someConfig.environment === 'production'
@@ -88,7 +88,7 @@ const axios = letsNotHammerTheServer ? new BlackHoleObject() : require('axios');
 // does nothing
 axios.get('https://example.com/some/url').then((response) => {
   // ...
-}).then((error) => {
+}).catch((error) => {
   // ...
 });
 ```
@@ -101,7 +101,7 @@ const axios = letsNotHammerTheServer ? new BlackHoleObject() : require('axios');
 // makes the actual API call
 axios.get('https://example.com/some/url').then((response) => {
   // ...
-}).then((error) => {
+}).catch((error) => {
   // ...
 });
 ```
