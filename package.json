@@ -1,6 +1,6 @@
 {
   "name": "black-hole-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create lightweight, chainable, callable, no-op black hole objects in JavaScript",
   "author": "Keegan Leitz <kjleitz@gmail.com>",
   "license": "MIT",
