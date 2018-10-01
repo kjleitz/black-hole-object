@@ -32,7 +32,13 @@
     "fake object",
     "fake",
     "permissive",
-    "lenient"
+    "lenient",
+    "proxy",
+    "dynamic properties",
+    "dynamic",
+    "properties",
+    "naught gem",
+    "naught"
   ],
   "private": false,
   "main": "dist/index.js",
@@ -45,5 +51,6 @@
   "devDependencies": {
     "tslint": "^5.11.0",
     "typescript": "^3.1.1"
-  }
+  },
+  "dependencies": {}
 }
