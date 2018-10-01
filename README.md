@@ -22,7 +22,7 @@ yarn add black-hole-object
 
 ### Important note regarding use in the browser
 
-This package depends on `Proxy` being supported on the client. While _most browsers today_ support this feature, older browsers will not. And, unfortunately, although there are polyfills for `Proxy`, they are limited in functionality and cannot support the kind of dynamic property accession that is required for this package. If you need to support older browsers... then don't make this a necessary facet of your project. Them's the breaks.
+This package depends on [`Proxy`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) being supported on the client. While _most browsers today_ support this feature, older browsers will not. And, unfortunately, although there are polyfills for `Proxy`, they are limited in functionality and cannot support the kind of dynamic property accession that is required for this package. If you need to support older browsers... then don't make this a necessary facet of your project. Them's the breaks.
 
 You can always add a conditional guard to ensure `window.Proxy` is defined before using it, but that just means you can't build an architecture around the assumption that this thing is going to be available in old browsers. Step away for a bit, give it a li'l time. Those browser versions will be soil soon enough.
 
