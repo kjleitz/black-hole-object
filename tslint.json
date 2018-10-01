@@ -11,7 +11,9 @@
       "ban-keywords",
       "allow-leading-underscore",
       "allow-pascal-case"
-    ]
+    ],
+    "quotemark": false,
+    "only-arrow-functions": false
   },
   "rulesDirectory": []
 }
